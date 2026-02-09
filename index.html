@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImVentory Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a0a1e, #a8365f, #e8685a, #f2c4b8);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+        .card {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            padding: 48px 40px;
+            max-width: 520px;
+            width: 100%;
+            box-shadow: 0 24px 48px rgba(0,0,0,0.15);
+        }
+        .icon { font-size: 64px; margin-bottom: 16px; }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+        .subtitle {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }
+        h2 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+            margin-top: 28px;
+        }
+        h2:first-of-type { margin-top: 0; }
+        p, li {
+            font-size: 14px;
+            color: #444;
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 8px;
+        }
+        li { margin-bottom: 6px; }
+        a {
+            color: #a8365f;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover { text-decoration: underline; }
+        .contact-box {
+            margin-top: 32px;
+            padding: 20px;
+            background: #f8f4f5;
+            border-radius: 14px;
+        }
+        .contact-box p { margin-bottom: 8px; }
+        .contact-box p:last-child { margin-bottom: 0; }
+        .footer {
+            margin-top: 32px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">📦</div>
+        <h1>ImVentory Support</h1>
+        <p class="subtitle">The visual inventory app that puts photos first.</p>
+
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+            <li><strong>How do I back up my data?</strong> Your inventory syncs automatically via iCloud when signed in. Photos are stored locally on your device.</li>
+            <li><strong>What is the daily item limit?</strong> Free users can create up to 5 items per day. Upgrade to ImVentory PRO for unlimited item creation.</li>
+            <li><strong>How do I cancel my subscription?</strong> Go to Settings > Apple ID > Subscriptions on your device and select ImVentory PRO.</li>
+            <li><strong>My data disappeared after updating.</strong> Make sure you are signed into the same iCloud account. If the issue persists, please contact us.</li>
+        </ul>
+
+        <h2>Troubleshooting</h2>
+        <ul>
+            <li><strong>App won't open.</strong> Try force-quitting and reopening, or restart your device.</li>
+            <li><strong>Photos not syncing.</strong> Full-resolution photos are stored locally and do not sync via iCloud. Thumbnails and item data do sync.</li>
+        </ul>
+
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <p>Having an issue not covered above? We're happy to help.</p>
+            <p>Open an issue on <a href="https://github.com/markusbp/imventory-support/issues">GitHub</a> and we'll get back to you.</p>
+        </div>
+
+        <p class="footer">&copy; 2026 ImVentory. All rights reserved.</p>
+    </div>
+</body>
+</html>
